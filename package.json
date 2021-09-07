@@ -1,0 +1,21 @@
+{
+  "name": "arangodb-openresty",
+  "version": "1.0.0",
+  "author": {
+    "name": "skitsanos"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "register-foxx-docker-server": "foxx server set docker-demo http://demo:demo@localhost:9999",
+    "install-foxx-dev": "foxx install /api ./api --server docker-demo --database demo",
+    "replace-foxx-dev": "foxx replace /api ./api --server docker-demo --database demo",
+    "test": "mocha ./test"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "chai-url": "^1.0.4",
+    "mocha": "^9.1.1"
+  }
+}

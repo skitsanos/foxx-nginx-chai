@@ -1,0 +1,10 @@
+{
+  "name": "foxx-builder-core",
+  "version": "1.6.20201104",
+  "author": {
+    "name": "Skitsanos"
+  },
+  "main": "index.js",
+  "dependencies": {
+  }
+}
